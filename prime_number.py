@@ -1,14 +1,12 @@
 
 
 # TODO
-n = 3
+n = 61
 if n == 1:
     print("素数ではない。")
 if n == 2:
     print ("素数である。")
-for a in range(2,n):
-    
-        
+for a in range(2,n): 
     if n%a == 0:
         print ("素数ではない。")
         break
