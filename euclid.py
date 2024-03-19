@@ -41,7 +41,7 @@ if a>b:
     for i in range(b):
         c = a % b
         if c == 0:
-            print(a/b)
+            print(b)
             break
         if b % c == 0:
             print(c)
@@ -57,7 +57,7 @@ else:
     for i in range(a):
         c = b % a
         if c == 0:
-            print(b/a)
+            print(a)
             break
         if a % c == 0:
             print(c)
@@ -75,7 +75,7 @@ if a>b:
     for i in range(b):
         c = a % b
         if c == 0:
-            print(a/b)
+            print(b)
             break
         if b % c == 0:
             print(c)
@@ -91,7 +91,7 @@ else:
     for i in range(a):
         c = b % a
         if c == 0:
-            print(b/a)
+            print(a)
             break
         if a % c == 0:
             print(c)

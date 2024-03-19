@@ -4,7 +4,6 @@ import math
 # print(sin(0))
 # >>> 0
 # -----------
-print(math.pi)
 N = 100
 a = 0
 b = 0.5 *(math.pi)
