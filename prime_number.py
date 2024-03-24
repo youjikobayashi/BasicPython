@@ -10,9 +10,7 @@ def judgement(n):
         for a in range(2,n): 
             if n%a == 0:
                 return False
-                break
-            else:
-                if a == n - 1:
-                    return True
+            elif a == n - 1:
+                return True
 
 print(judgement(n))
