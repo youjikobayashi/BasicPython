@@ -1,28 +1,16 @@
 
 
-# TODO
-n = 61
-if n == 1:
-    print("素数ではない。")
-if n == 2:
-    print ("素数である。")
-for a in range(2,n): 
-    if n%a == 0:
-        print ("素数ではない。")
-        break
+n = int(input("n="))
+def judgement(n):
+    if n < 2:
+        return ("判定できません。")
     else:
-        if a == n - 1:
-            print ("素数である。")
+        if n == 2:
+            return True
+        for a in range(2,n): 
+            if n%a == 0:
+                return False
+            elif a == n - 1:
+                return True
 
-n = 10
-if n == 1:
-    print("素数ではない。")
-if n == 2:
-    print ("素数である。")
-for a in range(2,n):
-    if n%a == 0:
-        print ("素数ではない。")
-        break
-    else:
-        if a == n - 1:
-            print ("素数ではない")
+print(judgement(n))
